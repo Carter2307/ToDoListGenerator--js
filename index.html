@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="src/styles.css">
+
+	<title>Document</title>
+</head>
+
+<body class="body">
+	<header class="header">
+		<div class="bran-name"><a href="index.html">ToDo List </a></div>
+		<div class="darkmode-btn">
+			<span>Dark Mode</span>
+			<button type="button" class="toggle-btn"><span class="toggle-item"></span></button>
+			<!--<label for="dark">Dark Mode</label>
+					<input type="checkbox" name="dark" id="dark" class="toggle-btn darkOff" value = "off">-->
+		</div>
+	</header>
+	<main class="container-center">
+		<div class="todo-container">
+			<h1>ToDo List</h1>
+			<div class="form-group">
+				<input type="search" name="search" id="search" class="form-control" placeholder="Search todos">
+				<div class="s-btn">
+						<button type="button" class="searchBtn">Search todos</button>
+						<button type="button" class="resetSearch-btn">Display all todo</button>
+				</div>
+				<div>
+					<section class="todo-items">
+						<div class="todos">
+							<span class="todo-title">Card Example</span>
+							<i class="far fa-trash-alt"></i>
+						</div>
+					</section>
+					<div class="form-group addtodo">
+						<label for="todo">Add a new todo...</label>
+						<input type="search" name="search" class="form-control textTodos" value="" id="search">
+						<button type ="button" class ="addTodo-btn">Add a new todo ...</button>
+						<div>
+							<div class="help-text">
+								<p> NB : Enter the title of the todo then press the Enter key keyboard.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="src/index.js"></script>
+</body>
+
+</html>
