@@ -1,4 +1,4 @@
-/*Déclaration des letiables*/
+/*Déclaration des variables*/
 let activeDark = document.querySelector(".toggle-btn");
 let body = document.querySelector(".body");
 let headerDark = document.querySelector(".header");
